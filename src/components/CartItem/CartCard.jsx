@@ -87,7 +87,7 @@ export default function CartCard({ cart_id, product_name, product_description, q
     <div className="gap-3 rounded-custom-xs text-primary-dark bg-white border border-primary-dark border-opacity-30 w-full p-3
     custom-tablet:flex 
     custom-mobileSmall:grid custom-mobileSmall:grid-cols-1">
-      <img src={`../public/Products/${image}`} className=" border border-primary-dark border-opacity-30
+      <img src={`/Products/${image}`} className=" border border-primary-dark border-opacity-30
       custom-tablet:w-64 custom-tablet:h-full
       custom-mobileSmall:size-full custom-mobileSmall:h-full">
         
